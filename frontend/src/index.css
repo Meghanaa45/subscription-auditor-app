@@ -1,0 +1,58 @@
+:root {
+  /* Color: ledger paper, not the default AI cream - cooler, greyer, with a
+     muted brick-red audit mark instead of the templated terracotta accent. */
+  --paper: #f0eee5;
+  --paper-raised: #f8f7f2;
+  --rule: #d7d2c2;
+  --ink: #20242c;
+  --ink-soft: #5b5f6b;
+  --ink-faint: #8b8e97;
+  --audit-red: #a13a2d;
+  --audit-green: #2e6f58;
+  --navy: #23345c;
+
+  /* Type: serif for ledger headings, Inter for interface copy, Space Mono
+     for anything that is a number or a data value. */
+  --font-display: "Source Serif 4", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "Space Mono", "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--navy);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

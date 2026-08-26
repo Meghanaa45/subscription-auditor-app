@@ -1,0 +1,115 @@
+{
+  "summary": {
+    "total_subscriptions": 6,
+    "total_annual_cost": 1848.36,
+    "total_monthly_cost": 154.03,
+    "annual_cost_by_category": {
+      "software": 998.88,
+      "fitness": 299.88,
+      "streaming": 345.6,
+      "news": 204.0
+    },
+    "subscriptions_with_price_increases": 2,
+    "annual_cost_added_by_price_increases": 126.84
+  },
+  "subscriptions": [
+    {
+      "merchant": "Adobe Creative Cloud",
+      "category": "software",
+      "billing_period": "monthly",
+      "occurrences_detected": 14,
+      "first_charge_date": "2025-06-20",
+      "last_charge_date": "2026-07-19",
+      "current_amount": 63.24,
+      "estimated_monthly_cost": 63.24,
+      "estimated_annual_cost": 758.88,
+      "confidence": 0.922,
+      "price_increased": true,
+      "price_change_events": [
+        {
+          "date": "2026-03-20",
+          "old_amount": 54.99,
+          "new_amount": 63.24,
+          "pct_change": 15.0
+        }
+      ]
+    },
+    {
+      "merchant": "Planet Fitness",
+      "category": "fitness",
+      "billing_period": "monthly",
+      "occurrences_detected": 14,
+      "first_charge_date": "2025-06-03",
+      "last_charge_date": "2026-07-02",
+      "current_amount": 24.99,
+      "estimated_monthly_cost": 24.99,
+      "estimated_annual_cost": 299.88,
+      "confidence": 1.0,
+      "price_increased": false,
+      "price_change_events": []
+    },
+    {
+      "merchant": "ChatGPT Plus",
+      "category": "software",
+      "billing_period": "monthly",
+      "occurrences_detected": 14,
+      "first_charge_date": "2025-06-16",
+      "last_charge_date": "2026-07-16",
+      "current_amount": 20.0,
+      "estimated_monthly_cost": 20.0,
+      "estimated_annual_cost": 240.0,
+      "confidence": 0.908,
+      "price_increased": false,
+      "price_change_events": []
+    },
+    {
+      "merchant": "Netflix",
+      "category": "streaming",
+      "billing_period": "monthly",
+      "occurrences_detected": 14,
+      "first_charge_date": "2025-06-01",
+      "last_charge_date": "2026-07-05",
+      "current_amount": 17.81,
+      "estimated_monthly_cost": 17.81,
+      "estimated_annual_cost": 213.72,
+      "confidence": 0.828,
+      "price_increased": true,
+      "price_change_events": [
+        {
+          "date": "2026-02-05",
+          "old_amount": 15.49,
+          "new_amount": 17.81,
+          "pct_change": 15.0
+        }
+      ]
+    },
+    {
+      "merchant": "New York Times",
+      "category": "news",
+      "billing_period": "monthly",
+      "occurrences_detected": 14,
+      "first_charge_date": "2025-06-05",
+      "last_charge_date": "2026-07-03",
+      "current_amount": 17.0,
+      "estimated_monthly_cost": 17.0,
+      "estimated_annual_cost": 204.0,
+      "confidence": 1.0,
+      "price_increased": false,
+      "price_change_events": []
+    },
+    {
+      "merchant": "Spotify",
+      "category": "streaming",
+      "billing_period": "monthly",
+      "occurrences_detected": 14,
+      "first_charge_date": "2025-06-13",
+      "last_charge_date": "2026-07-12",
+      "current_amount": 10.99,
+      "estimated_monthly_cost": 10.99,
+      "estimated_annual_cost": 131.88,
+      "confidence": 1.0,
+      "price_increased": false,
+      "price_change_events": []
+    }
+  ]
+}
