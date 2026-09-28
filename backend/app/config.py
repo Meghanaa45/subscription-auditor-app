@@ -23,7 +23,12 @@ class AzureOpenAIConfig:
 
     @property
     def is_configured(self) -> bool:
-        return bool(self.endpoint and self.api_key and self.deployment)
+        if not (self.endpoint and self.api_key and self.deployment):
+            return False
+        placeholders = ("your-resource-name", "your-key", "your-deployment-name")
+        return not any(
+            p in val for p in placeholders for val in (self.endpoint, self.api_key, self.deployment)
+        )
 
 
 def load_azure_openai_config() -> AzureOpenAIConfig:
